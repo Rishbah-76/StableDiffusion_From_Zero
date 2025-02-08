@@ -18,11 +18,3 @@ This notebook focuses on implementing a Variational Autoencoder (VAE). It includ
 - Code for building an encoder-decoder architecture
 - Implementation details for training and inference in a VAE framework
 
-### README_gen.py
-This script contains the function `generate_readme(directory)` that generates a README.md file. It does the following:
-1. Lists all files in a given directory
-2. Truncates large content to avoid sending too much data
-3. Uses this summarized content to generate a markdown-formatted project description
-
-The README will be used to document and describe these components, their functionalities, and how they work together in the complete implementation of Stable Diffusion from scratch.
-
